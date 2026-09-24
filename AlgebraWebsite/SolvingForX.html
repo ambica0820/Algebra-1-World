@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="SolvingForX.css">
+<title>Solving For X</title>
+</head>
+<body>
+     <div class="navigation">
+    <a href="CombiningLikeTerms.html" class="previous">Previous: Combining Like Terms</a>
+    <br>
+    <a href="VariablesOnBothSides.html" class="next">Next: Variables on Both Sides</a>
+</div>
+
+    <h1>Solving For X</h1>
+    
+<section class="SomethingsToKnow">
+    <h2>Some things to take note of:</h2>
+    <p>Key Idea: We need to get X by itself!</p>
+   <p>Opposite of Multiplication ( &times; ) is Division ( &divide; ) </p>
+   <p>Opposite of Addition ( + ) is Subtraction ( - )</p>
+   <p><strong>REMEMBER:</strong> What you do to one side, you MUST do to the other side!</p>
+</section>
+<section id="Examples" class="Examples">
+    <h2>Examples:</h2>
+   
+<table>
+  <tr>
+    <th>Example</th>
+    <th>Problem</th>
+    <th>Steps</th>
+    <th>Answer</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>X + 5 = 10</td>
+    <td>Subtract 5 from both sides.
+        <br>
+        X - 5 - 5 = X. 10 - 5 = 5. 
+        <br>So we are left with X = 5.
+    </td>
+    <td> X= 5</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>3X + 5 = 17</td>
+    <td>
+        Subtract 5 from both sides.<br>
+        17 - 5 = 12.<br>
+        Then divide by 3 on both sides. 
+        <br>
+        3X &divide; 3 = X and <br>
+        12  &divide;  3 = 4.
+    </td>
+    <td>X = 4</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>4X + 3 = 17</td>
+    <td>
+        Subtract 3 from both sides.<br>
+        17 - 3 = 14.<br>
+        Then divide by 4 on both sides.<br>
+        14  &divide;  4 = 3.5.
+    </td>
+    <td>X = <sup>7</sup>/<sub>2</sub> or 3.5</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>-2X - 8 = 10</td>
+    <td>
+        Add 8 to both sides.<br>
+        10 + 8 = 18.<br>
+        Then divide by -2 on both sides.<br>
+        18  &divide;  -2 = -9.
+    </td>
+    <td>X = -9</td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td>9X + 6 = 21</td>
+    <td>
+        Subtract 6 from both sides.<br>
+        21 - 6 = 15.<br>
+        Then divide by 9 on both sides.<br>
+        15  &divide;  9 = 5/3.
+    </td>
+    <td>X = <sup>15</sup>/<sub>9</sub> or <sup>5</sup>/<sub>3</sub></td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>8X = 16</td>
+    <td>
+        Divide by 8 on both sides.<br>
+        16  &divide;  8 = 2.
+    </td>
+    <td>X = 2</td>
+</tr>
+</table>
+</section>
+
+<section id="ExamplesVisual">
+    <h2>Example Visualizations</h2>
+    <p>For the examples above, here is the visualization:</p>
+    <img src="mathvisual1.png" alt="Example Visualizations" width="600">
+</section>
+
+</section>
+    <section class="PracticeProblems">
+    <h2>Practice Problems:</h2>
+    <p>Solve for the unknown value.</p>
+    <p>Question 1 : 3X + 5 = 8</p>
+    <p>Question 2 : 4X + 7 = 8</p>
+    <p>Question 3 : X - 10 = 14</p>
+    <p>Question 4 : X + 7 = 19</p>
+    <p>Question 5 : 2X + 8 = 10</p>
+    <p>Question 6 : 3X = 12</p>
+    <p>Question 7 : 6X + 17 = 24</p>
+    <p>Question 8 : 4X - 2 = 4</p>
+    <p>Question 9: X + 3 - 3 = -6</p>
+<button onclick="showAnswers()">Answers to Practice Problems</button>
+<p id="answers"></p>
+<button onclick="showExplanations()">Explanations to Practice Problems</button>
+<p id="explanations"></p>
+</section>
+
+<section id="Quiz" class = "Quiz">
+    <h2>Quiz</h2>
+    <p>Test your knowledge on solving for X! Find the value of X in each equation.</p>
+    <form>
+        <label for = "q1">Question 1: 3x + 9 = 8</label>
+        <br><br>
+        <input type = "text" id = "q1" name = "q1">
+        <br><br>
+
+        <label for = "q2"> Question 2: -4x - 5 = 9</label>
+        <br><br>
+        <input type = "text" id = "q2" name = "q2">
+        <br><br>
+
+        <label for = "q3"> Question 3: 5x + 7 = 12</label>
+                <br><br>
+
+        <input type = "text" id="q3" name = "q3">
+        <br><br>
+
+        <label for = "q4"> Question 4: 2x - 3 = 7</label>
+        <br><br>
+<input type = "text" id = "q4" name = "q4"> 
+<br><br>
+
+        <label for = "q5"> Question 5: 6x + 2 = 20</label>
+        <br><br>
+        <input type = "text" id = "q5" name = "q5">
+        <br><br>
+
+        <label for = "q6"> Question 6: 8x - 4 = 12</label> 
+        <br><br>
+        <input type = "text" id = "q6" name = "q6">
+        <br><br>
+        
+        <label for = "q7"> Question 7: 4x + 9 = 13</label>
+        <br><br>
+        <input type = "text" id = "q7" name = "q7">
+        <br><br>
+
+        <label for = "q8"> Question 8: 7x - 5 = 16</label>
+        <br><br>
+        <input type = "text" id = "q8" name = "q8">
+        <br><br>    
+
+        <label for = "q9"> Question 9: 5x + 3 = 18</label>
+        <br><br>
+        <input type = "text" id = "q9" name = "q9">
+        <br><br>
+        <label for = "q10"> Question 10: 9x - 7 = 20</label>
+        <br><br>
+        <input type = "text" id = "q10" name = "q10">
+        <br><br>
+        <button type = "button" onclick = "checkAnswers()">Submit</button>
+         <p id="score"></p>
+    </form>
+    
+       
+    </section>
+
+    <div class="navigation">
+    <a href="CombiningLikeTerms.html" class="previous">Previous: Combining Like Terms</a>
+    <br>
+    <a href="VariablesOnBothSides.html" class="next">Next: Variables on Both Sides</a>
+</div>
+
+
+
+
+<script src="SolvingForX.js"></script>
+
+</body>
+</html>

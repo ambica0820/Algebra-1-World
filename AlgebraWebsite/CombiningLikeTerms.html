@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Combining Like Terms</title>
+        <link rel="stylesheet" href="CombiningLikeTerms.css">
+    </head>
+    <body>
+       <div class="navigation">
+    <a href="Percents.html" class="previous">Previous: Percents</a>
+    <br>
+    <a href="SolvingForX.html" class="next">Next: Solving for X</a>
+</div>
+        <h1>Combining Like Terms</h1>
+        <p>Combining like terms is a fundamental concept in algebra that allows us to simplify expressions by adding or subtracting terms that have the same variable raised to the same power.</p>
+        
+        <h2>What are Like Terms?</h2>
+<p><mark><strong>Like Terms</strong></mark> are terms that have the same variable and variables that are raised to the same power.</p>   
+
+<h2>Rules for Combining Like Terms:</h2>
+<ul>
+     <li>Coefficients (the numbers in front of the variables) can be different.</li>
+     <br>
+    <li>Terms must have the same variable.</li>
+    <p>For example, 3x and 5x are like terms because they both have the variable x</p>
+    <li>Terms must have the same exponent (power) on that variable.</li>
+    <p>For example, 2y<sup>2</sup> and 4y<sup>2</sup> are like terms because they both have the variable y raised to the same power (2).</p>
+    <li>Terms with different variables or different powers cannot be combined.</li>
+    <p>For example, 7a and 3b are not like terms because they have different variables (a and b). Similarly, 5m<sup>3</sup> and 2m<sup>2</sup> are not like terms because they have the same variable (m) but different powers (3 and 2).</p>
+   
+</ul>
+<h2>Like Terms (Yes or No)</h2>
+
+<table>
+    <tr>
+    <th>Expression</th>
+    <th>Like Terms?</th>
+    <th>Explanation</th>
+    </tr>
+    <tr>
+        <td>3X + 5X</td>
+        <td>Yes</td>
+        <td>Both terms have the variable x raised to the same power (1).</td>
+    </tr>
+    <tr>
+        <td>2Y<sup>2</sup> + 4Y<sup>2</sup></td>
+        <td>Yes</td>
+        <td>Both terms have the variable Y raised to the same power (2).</td>
+    </tr>
+    <tr>
+        <td>7A + 3B</td>
+        <td>No</td>
+        <td>The terms have different variables (A and B).</td>
+    </tr>
+    <tr>
+        <td>5M<sup>3</sup> + 2M<sup>2</sup></td>
+        <td>No</td>
+        <td>The terms have the same variable (m) but different powers (3 and 2).</td>
+    </tr>
+</table> 
+
+<h2>How to Combine Like Terms:</h2>
+<p>To combine like terms, simply add or subtract the coefficients (the numbers in front of the variables) while keeping the variable part unchanged.</p>
+<p>For example:</p>
+<ul>
+    <li>3X + 5X = (3 + 5)X = 8X</li>
+    <li>2Y<sup>2</sup> + 4Y<sup>2</sup> = (2 + 4)Y<sup>2</sup> = 6Y<sup>2</sup></li>
+    <li>7A - 3A = (7 - 3)A = 4A</li>
+</ul>
+<h2>Practice Problems:</h2> 
+<p>First see if you can combine the following like terms. If possible to combine, then solve them.</p>
+<p>Question 1: 4X + 5Y</p>
+<p>Question 2: 3A + 7A</p>
+<p>Question 3: 2M<sup>2</sup> + 5M<sup>2</sup></p>
+<p>Question 4: 6P - 2Q</p>
+<p>Question 5: 8X<sup>3</sup> + 3X<sup>3</sup></p>
+<p>Question 6: 9B - 4B</p>
+<p>Question 7: 5C + 2D</p>
+<p>Question 8: 7K<sup>2</sup> + 3K<sup>2</sup></p>
+<p>Question 9: 10X - 4X</p>
+<p>Question 10: 6Y + 2Y</p>
+<button onclick="showAnswers()">Show Answers</button>
+<div>
+    <p id="answer1"></p>
+    <p id="answer2"></p>
+    <p id="answer3"></p>
+    <p id="answer4"></p>
+    <p id="answer5"></p>
+    <p id="answer6"></p>
+    <p id="answer7"></p>
+    <p id="answer8"></p>
+    <p id="answer9"></p>
+    <p id="answer10"></p>
+    </div>
+
+<button onclick="showExplanations()">Show Explanations</button>
+<div>
+    <p id="explanation1"></p>
+    <p id="explanation2"></p>
+    <p id="explanation3"></p>
+    <p id="explanation4"></p>
+    <p id="explanation5"></p>
+    <p id="explanation6"></p>
+    <p id="explanation7"></p>
+    <p id="explanation8"></p>
+    <p id="explanation9"></p>
+    <p id="explanation10"></p>
+
+<section class="Quiz">
+    <h2>Quiz</h2>
+    <p>Determine if the following terms can be combined. If so combine them and write your answer in the box. If not, write NP (not possible).</p>
+    <form id="quiz">
+        <label for="q1">1. 3x + 6y</label>
+        <br><br>
+        <input type="text" id="q1" name="q1">
+        <br><br>
+        <label for="q2">2. 6x + 6y</label>
+        <br><br>
+        <input type="text" id="q2" name="q2">
+        <br><br>
+        <label for="q3">3. 10x + 10x</label>
+        <br><br>
+        <input type="text" id="q3" name="q3">
+        <br><br>
+        <label for="q4">4. 20x<sup>3</sup> + 6y<sup>2</sup></label>
+        <br><br>
+        <input type="text" id="q4" name="q4">
+        <br><br>
+        <label for="q5">5. 80x + 40x</label>
+        <br><br>
+        <input type="text" id="q5" name="q5">
+        <br><br>
+        <label for="q6">6. 13Y + 13Y</label>
+        <br><br>
+        <input type="text" id="q6" name="q6">
+        <br><br>
+        <button type="button" onclick="checkAnswers()">Check</button>
+        <p id="score"></p>
+    </form>
+</section>
+    </div>
+
+    <div class="navigation">
+    <a href="Percents.html" class="previous">Previous: Percents</a>
+    <br>
+    <a href="SolvingForX.html" class="next">Next: Solving for X</a>
+</div>
+
+    
+<script src="CombiningLikeTerms.js"></script>
+
+    </body>
+</html>

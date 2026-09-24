@@ -1,0 +1,110 @@
+
+body {
+  margin: 0;
+  padding: 0 20px;
+  background-image: url('grid1.jpg');
+
+}
+
+
+h1{
+  text-align:center;
+  background-color:lightpink;
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+h2{
+  text-align:left;
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  padding: 10px;
+  margin: 15px 0 10px;
+}
+
+h3{
+  text-align:left;
+  color: darkgreen;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+   margin: 10px 0;
+}
+
+mark{
+  background-color: yellow;
+  color: red;
+}
+
+p{
+  text-align:left;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+   margin: 10px 0;
+  line-height: 1.5;
+}
+
+ul{
+  text-align:left;
+  color: darkred;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  padding-left: 25px;
+}
+
+a {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+   transition: 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+  .navigation {
+    margin-top: 30px;
+    text-align: center;
+        font-size: 20px;
+
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.navigation a:hover {
+    background-color: yellow;
+}
+
+
+
+

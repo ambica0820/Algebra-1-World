@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decimals</title>
+ <link rel="stylesheet" href="Decimals.css">
+
+    </head>
+    <body>
+        <div class="navigation">
+    <a href="Fractions.html"> Previous: Fractions</a>
+    <a href="Percents.html">Next: Percents</a>
+</div>
+        <h1>Decimals</h1>
+  
+        <nav>
+    <a href="#place-value">Decimal Place Value</a>
+    <br>
+    <a href="#compare">Compare Decimals</a>
+    <br>
+    <a href="#rounding">Rounding Decimals</a>
+    <br>
+    <a href="#adding">Adding Decimals</a>
+    <br>
+    <a href="#subtracting">Subtracting Decimals</a>
+    <br>
+    <a href="#multiplying">Multiplying Decimals</a>
+    <br>
+    <a href="#dividing">Dividing Decimals</a>
+    <br>
+    <a href="#Quiz">Quiz</a>
+    
+</nav>
+<hr>
+<p>A <mark><strong>decimal</strong></mark> is a number that uses a dot, called a decimal point (<strong>.</strong>) to show parts of a whole, like tenths or hundredths.</p>
+
+<section id="place-value" class="PlaceValue">
+    <h2>Decimal Place Value</h2>
+   
+        <p>A <mark><strong>place value chart</strong></mark> is a chart that helps us understand the value of each digit in a number by showing its position.</p>
+        <ul>
+            <li>The farther left a digit is, the greater its place value.</li>
+<li>The farther right a digit moves after the decimal point, the smaller its place value becomes.</li>
+        </ul>
+        <img src="PlaceValue.avif" alt="Decimal place value chart" width="800px" height="400px">
+        
+            <h3>Examples</h3>
+            <p>Let's look at some examples. Using the chart above, we will find out the place value of the number underlined.</p>
+            <ol>
+                <li>1.2<u>3</u>47</li>
+                <li>32.<u>8</u>6</li>
+                <li><u>8</u>.7283</li>
+                <li><u>4</u>432</li>
+</ol>
+<h3>Explanations</h3> 
+<ol>
+    <li>The underlined number is 3. It is 2 places after the decimal. The place after the decimal is called the <i>tenths</i> place. The place after the tenths place is called the <i>hundredths</i> place where the 3 is located. So the 3 is in the <strong>hundredths</strong> place.</li>
+    <li>The underlined number is 8. It is right after the decimal point. It is in the <strong>tenths</strong> place.</li>
+    <li>The underlined number is 8. It is before the decimal point. That place is called the <i>ones</i> place. For this question the 8 is in the <strong>ones</strong> place.</li>
+    <li>The underlined number here is 4. Counting from the last number we know that: 2 is the <i>ones</i> place, 3 is the <i>tens</i> place, the 4 before the 3 is the <i>hundreds</i> place. The 4 that is underlined is before that. It is called the <i><strong>ten thousands</strong></i> place.</li>
+</ol>      
+<h3>Practice Problems</h3> 
+<p>Using the chart above, determine which place value the underlined digit is in. </p>
+<ol>
+    <li>2.345<u>8</u></li>
+    <li><u>2</u>8264</li>
+    <li>38.9<u>1</u>810</li>
+    <li>4.5<u>9</u>8</li>
+</ol>
+<button onclick="PracticeProblems1Answers()">Answers</button>
+<p id="PracticeProblems1Answers"></p>
+</section>
+
+<section id="compare" class="ComparingDecimals">
+<h2>Comparing Decimals</h2>
+<p>Comparing decimals means deciding which decimal is greater, smaller, or if they are equal.
+</p>
+
+<table>
+     
+    <tr>
+        <th>Symbol</th>
+        <th>Meaning</th>
+    </tr>
+    <tr>
+        <td>&gt;</td>
+        <td>Greater than</td>
+    </tr>
+    <tr>
+        <td>&lt;</td>
+        <td>Less than</td>
+    </tr>
+    <tr>
+        <td>=</td>
+        <td>Equal to</td>
+    </tr>
+</table>
+<h3>How to Compare Decimals</h3>
+
+<ol>
+    <li>Compare the whole number part.</li>
+    <li>If the whole numbers are the same, compare the tenths.</li>
+    <li>If they are still the same, compare the hundredths.</li>
+    <li>Continue comparing each place value until the numbers are different.</li>
+</ol>
+<h3>Examples</h3>
+<p> Let's look at some examples to better understand how to compare decimals.</p>
+<ul>
+<li>
+    <strong>Greater Than (&gt;)</strong>
+    <p>3.8 &gt; 3.5 because 8 tenths is greater than 5 tenths.</p>
+    <p>6.42 &gt; 6.18 because 42 hundredths is greater than 18 hundredths.</p>
+    <p>9.03 &gt; 8.99 because 9 is greater than 8.</p>
+</li>
+
+<li>
+    <strong>Less Than (&lt;)</strong>
+
+    <p>0.42 &lt; 0.57 because 42 hundredths is less than 57 hundredths.</p>
+
+    <p>4.16 &lt; 4.61 because 1 tenth is less than 6 tenths.</p>
+
+    <p>2.09 &lt; 2.10 because 9 hundredths is less than 10 hundredths.</p>
+</li>
+
+<li>
+    <strong>Equal To (=)</strong>
+
+    <p>1.50 = 1.5 because trailing zeros do not change the value of a decimal.</p>
+
+    <p>2.400 = 2.4 because trailing zeros do not change the value.</p>
+
+    <p>7.80 = 7.800 because both decimals have the same value.</p>
+</li>
+</ul>
+<h3>Practice Problems</h3>
+<p>See if you can compare the following decimals. Check your answers when you are done.</p>
+<p>Write <strong>&gt;</strong>, <strong>&lt;</strong>, or <strong>=</strong> to compare each pair of decimals.</p>
+
+<ol>
+    <li>0.6 ____ 0.8</li>
+    <li>3.45 ____ 3.54</li>
+    <li>5.2 ____ 5.20</li>
+    <li>7.18 ____ 7.08</li>
+    <li>1.09 ____ 1.90</li>
+    <li>4.56 ____ 4.560</li>
+    <li>2.34 ____ 2.43</li>
+    <li>8.75 ____ 8.57</li>
+    <li>6.03 ____ 6.3</li>
+    <li>9.99 ____ 9.999</li>
+</ol>
+<button onclick="PracticeSet2Answers()">Answers</button>
+<p id="PracticeSet2Answers"></p>
+</section>
+
+<section id="rounding" class="RoundingDecimals">
+    <h2>Rounding Decimals</h2>
+    <p><mark><strong>Rounding decimals</strong></mark> means changing a decimal to a nearby value that is easier to work with while keeping it close to its original value.</p>
+    <h3>Steps to Round Decimals</h3>
+    <ol>
+        <li>Find the place value you are rounding to.</li>
+<li>Look at the digit to the right.</li>
+<li>If the digit is 5 or greater, round up.</li>
+<li>If the digit is 4 or less, keep the digit the same.</li>
+<li>Remove any digits to the right of the rounded place.</li>
+    </ol>
+
+    <h3>Examples 1: Round 6.4 to the nearest <strong>whole number.</strong></h3>
+    
+
+<p>Step 1: Find the whole number place.</p>
+
+<p>Step 2: Look at the digit to the right (the tenths place).</p>
+<p>The tenths digit is <i>4</i>.</p>
+<p>Since 4 is less than 5, keep the whole number the same.</p>
+
+<p>Answer: 6</p>
+
+<h3>Example 2: Round 8.7 to the nearest <strong>whole number.</strong></h3>
+
+<p>Step 1: Find the whole number place.</p>
+
+<p>Step 2: Look at the digit to the right (the tenths place).</p>
+
+<p>The tenths digit is <i>7</i>.</p>
+
+<p>Since 7 is 5 or greater, round up.</p>
+
+<p>Answer: 9</p>
+
+<h3>Example 3: Round 3.46 to the nearest <strong>tenth.</strong></h3>
+
+<p>Step 1: Find the tenths place.</p>
+
+<p>Step 2: Look at the digit to the right (the hundredths place).</p>
+
+<p>The hundredths digit is <i>6</i>.</p>
+
+<p>Since 6 is 5 or greater, round the tenths digit up.</p>
+
+<p>Answer: 3.5</p>
+
+<p>Example 4:</p>
+<p>Round 9.241 to the nearest <strong>hundredth.</strong></p>
+
+<p>Step 1: Find the hundredths place.</p>
+
+<p>Step 2: Look at the digit to the right (the thousandths place).</p>
+
+<p>The thousandths digit is <i>1</i>.</p>
+
+<p>Since 1 is less than 5, keep the hundredths digit the same.</p>
+
+<p>Answer: 9.24</p>
+
+<hr>
+
+    <h3>Practice Problems</h3>
+
+<p>Round each decimal to the place value given.</p>
+
+<ol>
+    
+    <li>Round 4.7 to the nearest <strong>whole number.</strong></li>
+    <li>Round 8.3 to the nearest <strong>whole number.</strong></li>
+    <li>Round 6.5 to the nearest <strong>whole number.</strong></li>
+    <li>Round 9.2 to the nearest <strong>whole number.</strong></li>
+    <li>Round 3.46 to the nearest <strong>tenth.</strong></li>
+    <li>Round 7.84 to the nearest <strong>tenth.</strong></li>
+    <li>Round 5.29 to the nearest <strong>tenth.</strong></li>
+    <li>Round 8.76 to the nearest <strong>tenth.</strong></li>
+    <li>Round 4.583 to the nearest <strong>hundredth.</strong></li>
+    <li>Round 9.127 to the nearest <strong>hundredth.</strong></li>
+</ol>
+<button onclick="PracticeProblems3Answers()">Answers</button>
+<p id="PracticeProblems3Answers"></p>
+</section>
+
+<section id="adding" class="AddingDecimals">
+    <h2>Adding Decimals</h2>
+    <p><mark><strong>Adding decimals</strong></mark> means combining two or more decimal numbers to find their total.</p>
+
+<h3>Steps to Add Decimals</h3>
+
+<ol>
+    <li>Line up the numbers so that the decimal points are directly under each other.</li>
+    <li>Add zeros to the end of a decimal if needed.</li>
+    <li>Add the numbers like you normally would.</li>
+    <li>Bring the decimal point straight down into the answer.</li>
+</ol>
+<h3>Example 1: 3.4 + 2.5</h3>
+
+<p>Step 1: Line up the decimal points. Anywhere you do not see a value, replace it with a 0.</p>
+
+<p>
+  3.4<br>
++ 2.5
+</p>
+
+<p>Step 2: Add the numbers. Go from right to left.</p>
+
+<p>4 + 5 = 9</p>
+
+<p>3 + 2 = 5</p>
+
+<p>Answer: 5.9</p>
+<h3>Example 2: 4.25 + 3.6</h3>
+
+<p>Step 1: Line up the decimal points.</p>
+
+<p>Add a zero to make the decimal places equal:</p>
+
+<p>
+4.25<br>
++3.60
+</p>
+
+<p>Step 2: Add.</p>
+
+<p>
+5 hundredths + 0 hundredths = 5 hundredths<br>
+2 tenths + 6 tenths = 8 tenths<br>
+4 ones + 3 ones = 7 ones
+</p>
+
+<p>Answer: 7.85</p>
+<h3>Picture Example: </h3>
+
+<img src="addingdecimals.png" alt="addingdecimals" width="200px" height="200px">
+<br>
+<h3>Practice Problems</h3>
+
+<p>Add the following decimals.</p>
+
+<ol>
+    <li>2.5 + 3.4 = ____</li>
+    <li>6.7 + 1.8 = ____</li>
+    <li>4.25 + 2.30 = ____</li>
+    <li>7.45 + 3.6 = ____</li>
+    <li>12.35 + 8.24 = ____</li>
+</ol>
+
+
+
+<button onclick="PracticeProblems4Answers()">Answers</button>
+<p id="PracticeProblems4Answers"></p>
+</section>
+
+<section id="subtracting" class="SubtractingDecimals">
+    <h2>Subtracting Decimals</h2>
+
+<p><mark><strong>Subtracting decimals</strong></mark> means finding the difference between two decimal numbers.</p>
+
+<h3>Steps to Subtract Decimals</h3>
+
+<ol>
+    <li>Line up the numbers so that the decimal points are directly under each other.</li>
+    <li>Add zeros to the end of a decimal if needed.</li>
+    <li>Subtract the numbers like you normally would.</li>
+    <li>Bring the decimal point straight down into the answer.</li>
+</ol>
+
+<h3>Example 1: 8.5 - 3.2</h3>
+
+
+
+<p>Step 1: Line up the decimal points.</p>
+
+<p>
+8.5<br>
+-3.2
+</p>
+
+<p>Step 2: Subtract the numbers.</p>
+
+<p>5 &minus; 2 = 3</p>
+<p>8 &minus; 3 = 5</p>
+
+<p>Answer: 5.3</p>
+
+<h3>Example 2: 7.40 - 2.15</h3>
+
+<p>Step 1: Line up the decimal points.</p>
+
+<p>
+7.40<br>
+-2.15
+</p>
+
+<p>Step 2: Subtract.</p>
+
+<p>Borrow when needed.</p>
+
+<p>Answer: 5.25</p>
+
+<h3>Example Visual:</h3>
+<p>For the 2 problems above, here is a visual representation:</p>
+
+<img src="mathvisual2.png" alt="mathvisual2" width="400px" height="500px">
+<h3>Picture Example: </h3>
+<img src="subtractingdecimals.svg" alt="subtractingdecimals" width="300px" height="300px">
+<br>
+
+<h3>Practice Problems</h3>
+
+<p>Subtract the following decimals.</p>
+
+<ol>
+    <li>8.6 - 2.4 = ____</li>
+    <li>9.5 - 4.3 = ____</li>
+    <li>7.85 - 3.20 = ____</li>
+    <li>10.4 - 6.75 = ____</li>
+    <li>15.60 - 8.25 = ____</li>
+</ol>
+
+<button onclick="PracticeProblems5Answers()">Answers</button>
+<p id="PracticeProblems5Answers"></p>
+</section>
+
+<section id="multiplying" class="MultiplyingDecimals">
+    <h2>Multiplying Decimals</h2>
+
+<p><mark><strong>Multiplying decimals</strong></mark> means finding the product of two decimal numbers.</p>
+
+<h3>Steps to Multiply Decimals</h3>
+
+<ol>
+    <li>Ignore the decimal points and multiply the numbers as if they were whole numbers.</li>
+    <li>Count the total number of decimal places in both factors.</li>
+    <li>Place the decimal point in the product so it has the same total number of decimal places.</li>
+</ol>
+
+<h3>Example 1: 2.5 &times; 4</h3>
+<p>Step 1: Ignore the decimal point.</p>
+
+<p>25 &times; 4 = 100</p>
+
+<p>Step 2: Count the decimal places.</p>
+
+<p>2.5 has 1 decimal place.</p>
+
+<p>Step 3: Move the decimal point one place from the right.</p>
+
+<p>Answer: 10</p>
+
+<h3>Example 2: 1.2 &times; 3.4</h3>
+
+<p>Step 1: Ignore the decimal points.</p>
+
+<p>12 &times; 34 = 408</p>
+
+<p>Step 2: Count the decimal places.</p>
+
+<p>1.2 has 1 decimal place.</p>
+<p>3.4 has 1 decimal place.</p>
+
+<p>There are 2 decimal places in total.</p>
+
+<p>Step 3: Move the decimal point two places from the right.</p>
+
+<p>Answer: 4.08</p>
+<h3>Picture Example: </h3>
+<img src="multiplyingdecimals.png" alt="multiplyingdecimals" width="200px" height="200px">
+<br>
+<h3>Practice Problems</h3>
+
+<p>Multiply the following decimals.</p>
+
+<ol>
+    <li>2.3 &times; 4 = ____</li>
+    <li>1.5 &times; 6 = ____</li>
+    <li>2.4 &times; 3.5 = ____</li>
+    <li>4.2 &times; 1.3 = ____</li>
+    <li>5.25 &times; 2 = ____</li>
+</ol>
+
+<button onclick="PracticeProblems6Answers()">Answers</button>
+<p id="PracticeProblems6Answers"></p>
+</section>
+
+<section id="dividing" class="DividingDecimals">
+
+    <h2>Dividing Decimals</h2>
+
+<p><mark><strong>Dividing decimals</strong></mark> means finding how many times one decimal number fits into another.</p>
+
+<h3>Steps to Divide Decimals</h3>
+
+<ol>
+    <li>If the divisor is a decimal, move the decimal point to the right until it becomes a whole number.</li>
+    <li>Move the decimal point in the dividend the same number of places.</li>
+    <li>Divide as you normally would.</li>
+    <li>Place the decimal point in the quotient directly above the decimal point in the dividend.</li>
+</ol>
+
+
+<h3>Example 1: 8.4 &divide; 2</h3>
+
+<p>Step 1: The divisor is already a whole number.</p>
+
+<p>Step 2: Divide as usual.</p>
+
+<p>84 &divide; 2 = 42</p>
+
+<p>Step 3: Place the decimal point in the answer.</p>
+
+<p>Answer: 4.2</p>
+
+<h3>Visual Example:</h3>
+<img src="mathvisual3.png" alt="dividingdecimals" width="400px" height="500px">
+
+<h3>Example 2: 6.4 &divide; 0.8</h3>
+
+<p>Step 1: Move the decimal point in the divisor one place to the right.</p>
+
+<p>0.8 becomes 8.</p>
+
+<p>Step 2: Move the decimal point in the dividend one place to the right.</p>
+
+<p>6.4 becomes 64</p>
+
+<p>Step 3: Divide.</p>
+
+<p>64 &divide; 8 = 8</p>
+
+<p>Answer: 8</p>
+
+<h3>Picture Example: </h3>
+<p>Look at the picture below. First, ignore the decimal points and divide how you would normally. Then count how many total decimal places are in both numbers. Starting from the end of your answer, move the decimal point that many places to the left.</p>
+<img src="dividingdecimals.png" alt="dividingdecimals" width="200px" height="200px">
+<br>
+
+<h3>Practice Problems</h3>
+
+<p>Divide the following decimals.</p>
+
+<ol>
+    <li>9.6 &divide; 3 = ____</li>
+    <li>7.2 &divide; 4 = ____</li>
+    <li>12.6 &divide; 2 = ____</li>
+</ol>
+
+<button onclick="PracticeProblems7Answers()">Answers</button>
+<p id="PracticeProblems7Answers"></p>
+</section>
+
+<section id = "Quiz" class="Quiz">
+    <h2>Quiz</h2>
+    <p>Test your knowledge on decimals.</p>
+    <form id = "quizForm">
+        <label for = "q1">1. 0.5 + 0.3 = </label>
+        <input type = "text" id = "q1" name = "q1"><br><br>
+        <label for = "q2">2. 0.7 - 0.4 = </label>
+        <input type = "text" id = "q2" name = "q2"><br><br>
+        <label for = "q3">3. 0.6 × 0.2 = </label>
+        <input type = "text" id = "q3" name = "q3"><br><br>
+        <label for = "q4">4. 0.8 ÷ 0.4 = </label>
+        <input type = "text" id = "q4" name = "q4"><br><br>
+        <label for = "q5">5. Round 3.76 to the nearest tenth: </label>
+        <input type = "text" id = "q5" name = "q5"><br><br>
+        <label for = "q6">6. 2.89 + 3.4509 = </label>
+        <input type = "text" id = "q6" name = "q6"><br><br>
+        <label for = "q7">7. 1.2 + 0.8 = </label>
+        <input type = "text" id = "q7" name = "q7"><br><br>
+        <label for = "q8">8. 2.5 - 1.3 = </label>
+        <input type = "text" id = "q8" name = "q8"><br><br>
+        <label for = "q9">9. 0.9 &times; 0.5 = </label>
+        <input type = "text" id = "q9" name = "q9"><br><br>
+        <label for = "q10">10. 1.6 ÷ 0.4 = </label>
+        <input type = "text" id = "q10" name = "q10"><br><br>
+        <button type = "button" onclick = "checkQuiz()">Check Answers</button>
+        <p id = "score"></p>
+    </form>
+    </section>
+    <div class="navigation">
+    <a href="Fractions.html" class="previous">Previous: Fractions</a>
+    <br>
+    <a href="Percents.html" class="next">Next: Percents</a>
+</div>
+
+<script src="Decimals.js"></script>   
+ </body>
+</html>

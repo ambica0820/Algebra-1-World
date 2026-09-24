@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quadratic Formula</title>
+ <link rel="stylesheet" href="QuadraticFormula.css">
+
+
+    </head>
+    <body>
+
+        <div class="navigation">
+    <a href="Graphing.html" class="previous">Previous: Graphing</a>
+    <br>
+    <a href="Quiz.html" class="next">Next: FINAL QUIZ</a>
+</div>
+        
+<h1>Quadratic Formula</h1>
+<img src="quadratic.gif" alt="quadratic" width="300px" height="300px">
+<nav>
+<ul>
+<li><a href="#Intro">Introduction</a></li>
+<br>
+<li><a href="#Factoring">Factoring</a></li>
+<br>
+<li><a href="#UsingFormula">Quadratic Formula</a></li>
+<br>
+<li><a href="#ThingsToNote">Things to Remember</a></li>
+<br>
+<li><a href="#CommonMistakes">Common Mistakes</a></li>
+</ul>
+</nav>
+<section id="Intro" class="Intro">
+<h2>What is a Quadratic Equation?</h2>
+<p>
+A <strong><mark>quadratic equation</mark></strong> is an equation whose highest exponent of the variable is 2.
+</p>
+
+<ul>
+    <li><mark><strong>Coefficient:</strong></mark> a number or constant value placed next to and multiplying a variable in a math expression</li>
+    <li><mark><strong>Constant:</strong></mark> a fixed, unchanging value</li>
+</ul>
+
+
+<p>Quadratic Equation Standard Form: ax<sup>2</sup> + bx + c = 0</p>
+<ul>
+    <li>a is coefficient of x<sup>2</sup></li>
+    <li>b is the coefficient of x</li>
+    <li>c is the constant</li>
+</ul>
+</section>
+<section id="Factoring" class="Factoring">
+    <h2>Factoring Quadratic Expressions</h2>
+    <p>When factoring quadratic expressions, there are some things to keep in mind. We need to find two numbers that:</p>
+    <ul>
+    <li>Multiply to the <strong>c</strong> term.</li>
+    <li>Add to the <strong>b</strong> term.</li>
+</ul>
+<h3>Example 1:</h3>
+<p> x<sup>2</sup> + 7x + 12</p>
+<p>In this example, our a is 1, b is 7 and c is 12.</p>
+<ol>
+   <li>We first find two numbers that add to 7 and multiply to 12.
+Those two numbers are 3 and 4 because 3 + 4 = 7 and 3 &times; 4 = 12.</li>
+
+
+   <li>
+        Place the two numbers inside parentheses with x: 
+        (x + 3)(x + 4)
+    </li>
+
+    <li>
+        Therefore, the factored form is:
+        
+        <strong>(x + 3)(x + 4)</strong>
+    </li>
+</ol>
+<p>We can also check our work by expanding the expression.</p>
+<ol>
+    <li>x &times; x is x<sup>2</sup></li>
+    <li>x &times; 4 is 4x</li>
+    <li>x &times; 3 is 3x</li>
+    <li>3 &times; 4 is 12</li>
+    <li>We now get: x<sup>2</sup> + 3x + 4x + 12</li>
+    <li>Now we combine like terms. In this case thats 3x and 4x.</li>
+    <li>3x + 4x is 7x.</li>
+    </ol>
+    <p>We get x<sup>2</sup> + 7x + 12. Our work is correct!</p>
+
+   <h3>Example 2:</h3>
+
+<p>x<sup>2</sup> - 5x + 6</p>
+
+<p>In this example, a = 1, b = -5, and c = 6.</p>
+
+<ol>
+    <li>
+        First, find two numbers that add to -5 and multiply to 6.
+        Those two numbers are -3 and -2 because: -3 + (-2) = -5
+       and -3 &times; -2 = 6
+    </li>
+
+    <li>
+        Place the two numbers inside parentheses with x: <strong>(x - 3)(x - 2)</strong>
+    </li>
+
+    <li>
+        Therefore, the factored form is:<strong>(x - 3)(x - 2)</strong>
+    </li>
+</ol>
+
+<p>We can also check our work by expanding the expression.</p>
+
+<ol>
+    <li>x &times; x = x<sup>2</sup></li>
+    <li>x &times; -2 = -2x</li>
+    <li>x &times; -3 = -3x</li>
+    <li>-3 &times; -2 = 6</li>
+    <li>Now we have: x<sup>2</sup> - 2x - 3x + 6</li>
+    <li>Combine like terms. In this case, the like terms are -2x and -3x.</li>
+    <li>-2x + (-3x) = -5x.</li>
+</ol>
+
+<p>We get <strong>x<sup>2</sup> - 5x + 6</strong>, which matches the original expression. Therefore, our factoring is correct!</p>
+
+<h3>Visual</h3>
+<p>Look at the image below to see a visual of how to factor quadratic expressions.</p>
+<img src="factoringquad.gif" alt="factoring" width="300px" height="300px">
+
+<h2>Practice Problems</h2>
+<p>Factor each quadratic expression. Click the answer button when you are finished!</p>
+
+<ol>
+    <li>x<sup>2</sup> + 9x + 20</li>
+    <li>x<sup>2</sup> + 11x + 24</li>
+    <li>x<sup>2</sup> + 8x + 15</li>
+    <li>x<sup>2</sup> - 9x + 20</li>
+    <li>x<sup>2</sup> - 7x + 12</li>
+    <li>x<sup>2</sup> - 11x + 28</li>
+    <li>x<sup>2</sup> + x - 20</li>
+    <li>x<sup>2</sup> - x - 20</li>
+</ol>
+
+<button onclick="Answers1()">Answers</button>
+
+<p id="Answers1"></p>
+   
+</section>
+
+<section id="UsingFormula" class="UsingFormula">
+    <h2>Using the Quadratic Formula</h2>
+    
+    <img src="quadformula2.jpg" alt="quadraticformula" width="200px" height="200px">
+    <h3>Steps</h3>
+
+
+<ol>
+    <li>Identify a, b, and c.
+    </li>
+
+    <li>Write the quadratic formula.</li>
+
+    <li>Substitute the values into the formula.</li>
+
+    <li>Simplify inside the square root first.</li>
+
+    <li>Simplify the numerator and denominator.</li>
+
+    <li>Find the two values of x.</li>
+</ol>
+
+<h3>Visual Example</h3>
+
+<img src="quadraticformula1.png" alt="quadraticformulaexample" width="500px" height="500px">
+
+<img src="quadraticformula2.png" alt="quadraticformulaexample2" width="500px" height="500px">
+<h3>Visual</h3>
+<p>Here is a short video of the quadratic formula in action:</p>
+<img src="quadformula.gif" alt="quadraticformula" width="300px" height="300px">
+
+<h2>Practice Problems</h2>
+
+<p>Solve each quadratic equation using the quadratic formula.</p>
+<ol>
+    <li>Solve using the quadratic formula: x<sup>2</sup> + 5x + 3 = 0</li>
+    <li>Solve using the quadratic formula: 2x<sup>2</sup> + 7x + 2 = 0</li>
+</ol>
+
+<button onclick="Answers2()">Answers</button>
+
+<p id="Answers2"></p>
+
+
+    </section>
+
+<section id="ThingsToNote" class="ThingsToNote">
+<h2>Things to Remember!</h2>
+
+<ul>
+    <li>Always write the equation in standard form: <strong>ax<sup>2</sup> + bx + c = 0</strong></li>
+    <li>Identify a, b, and c before using the formula.</li>
+
+    <li>Remember that &plusmn; means there are two possible answers.</li>
+
+    <li>Simplify inside the square root first.</li>
+
+    <li>Check your answers by substituting them back into the original equation.</li>
+</ul>
+    </section>
+
+    <section id="CommonMistakes" class="CommonMistakes">
+        <h2>Common Mistakes</h2>
+
+<ul>
+    <li>Forgetting to include negative signs when identifying a, b, and c.</li>
+
+    <li>Forgetting to solve both the + and − cases.</li>
+
+    <li>Using the wrong order of operations.</li>
+
+    <li>Not simplifying the square root completely.</li>
+</ul>
+        </section>
+
+        <section id="Quiz" class="Quiz">
+            <h2>Quiz</h2>
+            <p>Take the quiz and see if you can solve each equation by either factoring or using the quadratic formula. Use the square root button where necessary.</p>
+
+            <p>Note: Remember each question will have 2 values! You MUST enter both values for it to be correct! </p>
+<button type="button" onclick="addRadical()">√</button>
+           <form>
+                
+
+                <label for="q1">Question 1: 3x<sup>2</sup> - 6x - 45 = 0</label>
+                <br><br>
+                <input type="text" id="q1" name="q1" onclick="currentQuestion = 'q1'">
+                <br><br>
+
+                <label for="q2">Question 2: x<sup>2</sup> + 7x + 12 = 0</label>
+                <br><br>
+                <input type="text" id="q2" name="q2" onclick="currentQuestion = 'q2'">
+                <br><br>
+
+                <label for="q3">Question 3: x<sup>2</sup> - 5x - 14 = 0</label>
+                <br><br>
+                <input type="text" id="q3" name="q3" onclick="currentQuestion = 'q3'">
+                <br><br>
+
+                <label for="q4">Question 4: 2x<sup>2</sup> + 7x + 3 = 0</label>
+                <br><br>
+                <input type="text" id="q4" name="q4" onclick="currentQuestion = 'q4'">
+                <br><br>
+
+                <label for="q5">Question 5: 3x<sup>2</sup> - 4x - 2 = 0</label>
+                <br><br>
+                <input type="text" id="q5" name="q5" onclick="currentQuestion = 'q5'">
+                <br><br>
+
+                <label for="q6">Question 6: 2x<sup>2</sup> + 3x - 7 = 0</label>
+                <br><br>
+                <input type="text" id="q6" name="q6" onclick="currentQuestion = 'q6'">
+                <br><br>
+
+                <label for="q7">Question 7: 3x<sup>2</sup> - 5x - 4 = 0</label>
+                <br><br>
+                <input type="text" id="q7" name="q7" onclick="currentQuestion = 'q7'">
+                <br><br>
+            </form>
+
+            <button type="button" onclick="checkAnswers()">Check Answers</button>
+            <p id="score"></p>
+        </section>
+
+        
+        <div class="navigation">
+    <a href="Graphing.html" class="previous">Previous: Graphing</a>
+    <br>
+    <a href="Quiz.html" class="next">Next: FINAL QUIZ</a>
+</div>
+   
+<script src="QuadraticFormula.js"></script>
+</body>
+</html>

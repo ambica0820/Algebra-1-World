@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0 20px;
+    background-image: url('grid1.jpg');
+
+}
+
+
+h1{
+  text-align:center;
+  background-color:lightpink;
+  color: red;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+section {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+ol {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+sup, sub {
+  font-size: 18px;
+}
+
+h2{
+  text-align:left;
+  color: blue;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  padding: 10px;
+  margin: 15px 0 10px;
+}
+
+h3{
+  text-align:left;
+  color: darkgreen;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+h4{
+  text-align:left;
+  color: purple;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p{
+  text-align:left;
+  color:black;
+  font-family:Arial, sans-serif;
+  font-size:18px;
+  margin:10px 0;
+  line-height:1.5;
+}
+
+button {
+  background-color: lightpink;
+  color: darkred;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+a {
+  display: block;
+  margin: 8px 0;
+  padding: 2px;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  margin: 15px 20px 15px auto;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+nav a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px;
+}
+
+.UsingFormula p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Quiz */
+
+#quiz input {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 18px;
+
+  width: 150px;
+
+  padding: 8px;
+
+  margin: 5px 0 15px;
+
+  border: 2px solid black;
+
+  border-radius: 6px;
+
+}
+
+#quiz input:focus {
+
+  outline: none;
+
+  border-color: blue;
+
+  background-color: lightblue;
+
+}
+
+#quiz li {
+
+  margin-bottom: 15px;
+
+}
+
+#percentsquiz input {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 18px;
+
+  width: 150px;
+
+  padding: 8px;
+
+  margin: 5px 0 15px;
+
+  border: 2px solid black;
+
+  border-radius: 6px;
+
+}
+
+#percentsquiz input:focus {
+
+  outline: none;
+
+  border-color: blue;
+
+  background-color: lightblue;
+
+}
+
+#percentsquiz li {
+
+  margin-bottom: 15px;
+
+}
+
+#practice1Answers,
+#practice2Answers,
+#practice3Answers,
+#practice4Answers,
+#practice5Answers,
+#practice6Answers,
+#practice7Answers,
+#practice8Answers,
+#practice9Answers,
+#practice10Answers,
+#practice11Answers {
+
+  font-size: 20px;
+  line-height: 1.6;
+  margin-right: 20px;
+
+}
+
+#percentsquiz li p {
+
+  font-size: 20px;
+
+}
+
+#quizAnswers {
+
+  font-size: 22px;
+  line-height: 1.6;
+
+}
+
+.navigation {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.navigation a:hover {
+    background-color: yellow;
+}

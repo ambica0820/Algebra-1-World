@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Of Operations</title>
+        <link rel="stylesheet" href="OrderOfOperations.css">
+    </head>
+    <body>
+        <div class="navigation">
+            <a href="Exponents.html" class="previous">Previous: Exponents</a>
+            <br>
+            <a href="Fractions.html" class="next">Next: Fractions</a>
+        </div>
+
+            <h1>Order of Operations</h1>
+            <img src="mathgif3.gif" alt="order of operations" width="300" height="300">
+            
+
+            <section class="definition">
+                <h2>Definition</h2>
+                <p>The <mark>order of operations</mark> is a set of rules that determines the sequence in which calculations are performed in a mathematical expression.</p>
+                <p>The acronym <i>PEMDAS</i> is often used to remember the order of operations:</p>
+                <ul>
+                    <li><strong>P</strong> - Parentheses</li>
+                    <li><strong>E</strong> - Exponents</li>
+                    <li><strong>M</strong> - Multiplication</li>
+                    <li><strong>D</strong> - Division</li>
+                    <li><strong>A</strong> - Addition</li>
+                    <li><strong>S</strong> - Subtraction</li>
+                </ul>
+            </section>  
+        <section class="ThingsToKnow">
+            <h2>Things to Remember</h2>
+            <ul>
+                <li>Perform operations inside parentheses first.</li>
+                <li>Evaluate exponents next.</li>
+                <li>Perform multiplication and division from left to right.</li>
+                <li>Perform addition and subtraction from left to right.</li>
+                <strong>
+                    <li>Operations of the same level (e.g., multiplication and division and addition and subtraction) are performed from left to right whichever comes first!</li>
+                </strong>
+            </ul>
+        </section>
+
+        <section class="Examples">
+            <h2>Examples</h2>
+            <p>Let's look at some examples to understand the order of operations better:</p>
+            <table>
+                <th>Example</th>
+                <th>Solution</th>
+                <th>Steps</th>
+                <tr>
+                    
+                    <td>2 + 3 &times; 4</td>
+                    <td>14</td>
+                    <td>3 &times; 4 = 12
+                        <br>
+                    12 + 2 = 14
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>(2 + 3) &times; 4</td>
+                    <td>20</td>
+                    <td>2 + 3 = 5 (we do parenthesis first)
+                        <br>
+                        5  &times; 4 = 20
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>2 + 3 &times; 4 - 5</td>
+                    <td>9</td>
+                    <td>3 &times; 4 = 12
+                        <br>
+                        2 + 12 = 14
+                        <br> 
+                        14 - 5 = 9
+                    </td>
+                    
+                    </tr>
+                    <tr>
+                    <td>2 + 3 &times; 4 - 5 &divide; 5</td>
+                    <td>13</td> 
+                    <td> 3 &times; 4 = 12. 
+                        <br>
+                         2 + 12 - 5 / 5.
+                         <br>
+                         Division comes next. -5 &divide; 5 is -1.
+                         <br> We now have 2 + 12 - 1. 
+                         <br>We then add 2 + 12 which is 14.
+                         <br>
+                          Last step is to do 14 - 1 which is 13.</td>
+                    </tr>
+                    <tr>
+                    <td>2<sup>3</sup> + 8 - 2 + 4</td>
+                    <td>18</td> 
+                    <td> First step here is exponent. 2 to the 3<sup>rd</sup> power is 2 &times; 2 &times; 2 which equals 8.
+                        <br>
+                         Next, we perform addition. 8 + 8 is 16 . <br>
+                         We then get 16 - 2 + 4. 
+                        <br>
+                    Subtraction next. 16 - 2 = 14.
+                <br>
+            Last step: 14 + 4 = 18</td>
+                    </tr>
+                    </table>
+        </section>
+        <section class="Practice">
+            <h2>Practice Problems</h2>
+            <p>Now it's your turn! Try solving the following problems using the order of operations:</p>
+            
+            <ol>
+                <li>5 + 2 &times; 3</li>
+                <br>
+                <li>(4 + 6) &divide; 2</li>
+                <br>
+                <li>8 - 3 &times; (2 + 1)</li>
+                <br>
+                <li>10 &divide; (5 - 3) + 7</li>
+                <br>
+                <li>6 + 4 &times; 2 - 3</li>
+            </ol>
+            <p>Check your answers below:</p>
+            <button onclick="showAnswers()">Show Answers</button>
+            <div id="answers">
+                </div>
+                <p>Explanations:</p>
+            <button onclick="showExplanations()">Show Explanations</button>
+            <div id="explanations">
+                </div>
+        </main>
+        <section id = "Quiz" class = "Quiz">
+            <h2>Quiz</h2>
+            <p>Test your knowledge of the order of operations with this quiz!</p>
+            <form id="quizForm">
+    <label for="q1">1. What is the result of 3 + 4 &times; 2?</label><br>
+    <input type="text" id="q1" name="q1"><br><br>
+
+    <label for="q2">2. What is the result of (5 + 3) &times; 2?</label><br>
+    <input type="text" id="q2" name="q2"><br><br>
+
+    <label for="q3">3. What is the result of 10 - 2<sup>2</sup>?</label><br>
+    <input type="text" id="q3" name="q3"><br><br>
+
+    <label for="q4">4. What is the result of 8 &divide; 2 &times; (2 + 2)?</label><br>
+    <input type="text" id="q4" name="q4"><br><br>   
+
+    <label for="q5">5. What is the result of 6 + 4 &times; 2 - 3?</label><br>
+    <input type="text" id="q5" name="q5"><br><br>
+
+    <label for="q6">6. What is the result of 12 &divide; (2 + 4) &times; 3?</label><br>
+    <input type="text" id="q6" name="q6"><br><br>
+
+    <label for="q7">7. What is the result of (3 + 5) &times; (2 - 1)?</label><br>
+    <input type="text" id="q7" name="q7"><br><br>
+
+    <label for="q8">8. What is the result of 15 - 3 &times; 2 + 4?</label><br>
+    <input type="text" id="q8" name="q8"><br><br>
+
+    <label for="q9">9. What is the result of 20 &divide; (5 - 3) + 6?</label><br>
+    <input type="text" id="q9" name="q9"><br><br>
+
+    <label for="q10">10. What is the result of 7 + 3 &times; (4 - 2)?</label><br>
+    <input type="text" id="q10" name="q10"><br><br>
+
+    
+  <button type = "button" onclick = "checkQuiz()">Check Answers</button>
+    <p id="score"></p>
+</form>
+        </section>
+        
+        <div class="navigation">
+            <a href="Exponents.html" class="previous">Previous: Exponents</a>
+            <br>
+            <a href="Fractions.html" class="next">Next: Fractions</a>
+        </div>
+
+        
+
+        <script src="OrderOfOperations.js"></script>
+    </body>
+</html>
